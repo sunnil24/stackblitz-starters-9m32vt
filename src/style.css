@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.success {
+  background-color: green;
+  color: wheat;
+}
+
+.selected {
+  background-color: blue;
+  color: wheat;
+}
+
+button {
+  border: transparent;
+  background: wheat;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
